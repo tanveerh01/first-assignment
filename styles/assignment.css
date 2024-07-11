@@ -16,6 +16,7 @@
 }
 .header{
   background-image: url('../assets/Hero-bg.png');}
+  
 
 .btn-primary{
     background-color: #0D1321;
@@ -54,4 +55,11 @@ main{
   margin: 0 auto;
   padding: 130px 150px;
   margin-top: 74px;
+}
+/* banner-styles*/
+.banner-pic{
+  width: 275px;
+}
+.secondary-bg{
+  display: flex;
 }
