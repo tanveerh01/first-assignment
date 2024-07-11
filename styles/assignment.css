@@ -13,11 +13,12 @@
   max-width: 1140px;
   margin: 0 auto;
   padding: 130px 150px;
+  background-image: ;
 }
 .header{
-  background-image: url('../assets/Hero-bg.png');}
-  
-
+  background-image: url('../assets/Hero-bg.png');
+  background-repeat: no-repeat;
+}
 .btn-primary{
     background-color: #0D1321;
     font-weight: bold;
@@ -57,9 +58,11 @@ main{
   margin-top: 74px;
 }
 /* banner-styles*/
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 97px;
+}
 .banner-pic{
   width: 275px;
-}
-.secondary-bg{
-  display: flex;
 }
